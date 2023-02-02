@@ -74,7 +74,7 @@ const AnnouncementList = ({ id, title, createdAt }) => {
   return (
     <View>
       <Card
-        style={{ borderRadius: 0, borderBottomWidth: 1, borderColor: "#eee" }}
+        style={{ backgroundColor: "white", borderRadius: 0, borderBottomWidth: 1, borderColor: "#eee" }}
       >
         <Card.Title
           title={`Sicat College • ${moment.unix(createdAt).format('MMMM DD YYYY, h:mm:ss a')}`}

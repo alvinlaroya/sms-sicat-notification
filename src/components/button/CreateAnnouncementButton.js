@@ -30,6 +30,7 @@ const CreateAnnouncementButton = () => {
               marginLeft: 10,
               height: 35,
               marginBottom: 5,
+              backgroundColor: "white"
             }}
             disabled
           />
